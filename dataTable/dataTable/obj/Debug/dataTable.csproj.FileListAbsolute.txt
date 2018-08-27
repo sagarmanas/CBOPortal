@@ -1,0 +1,210 @@
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\ApplicationInsights.config
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\dataTable.dll.config
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\dataTable.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\dataTable.pdb
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\csc.exe
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\csc.exe.config
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\csc.rsp
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\csi.exe
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\csi.exe.config
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\csi.rsp
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\Microsoft.Win32.Primitives.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.AppContext.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Collections.Immutable.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Console.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Diagnostics.Process.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.IO.Compression.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.IO.FileSystem.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.IO.Pipes.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Security.AccessControl.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Security.Claims.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Threading.Thread.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.ValueTuple.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Xml.XPath.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\vbc.exe
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\vbc.exe.config
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\vbc.rsp
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\VBCSCompiler.exe
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\roslyn\VBCSCompiler.exe.config
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Antlr3.Runtime.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.Web.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.WindowsServer.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.ApplicationInsights.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Newtonsoft.Json.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Helpers.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Mvc.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Optimization.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Razor.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.WebPages.Deployment.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.WebPages.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.WebPages.Razor.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\WebGrease.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Helpers.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Mvc.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Optimization.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.Razor.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.WebPages.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.WebPages.Deployment.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\System.Web.WebPages.Razor.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Antlr3.Runtime.pdb
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Newtonsoft.Json.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.ApplicationInsights.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.WindowsServer.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\Microsoft.AI.Web.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\obj\Debug\dataTable.csprojResolveAssemblyReference.cache
+c:\users\sijagga\source\repos\dataTable\dataTable\obj\Debug\dataTable.csproj.CoreCompileInputs.cache
+c:\users\sijagga\source\repos\dataTable\dataTable\obj\Debug\dataTable.csproj.CopyComplete
+c:\users\sijagga\source\repos\dataTable\dataTable\obj\Debug\dataTable.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\obj\Debug\dataTable.pdb
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\EntityFramework.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\EntityFramework.SqlServer.dll
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\EntityFramework.xml
+c:\users\sijagga\source\repos\dataTable\dataTable\bin\EntityFramework.SqlServer.xml
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\AutoMapper.dll
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\System.ValueTuple.dll
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\AutoMapper.pdb
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\AutoMapper.xml
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\System.ValueTuple.xml
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\LinqToExcel.dll
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\Remotion.Data.Linq.dll
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\Remotion.dll
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\Remotion.Interfaces.dll
+C:\Users\sijagga\source\repos\dataTable\dataTable\bin\LinqToExcel.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\ApplicationInsights.config
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\dataTable.dll.config
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\dataTable.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\dataTable.pdb
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\csc.exe
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\csc.exe.config
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\csc.rsp
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\csi.exe
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\csi.exe.config
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\csi.rsp
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.AppContext.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Console.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.IO.Compression.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.IO.Pipes.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Security.Claims.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Threading.Thread.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.ValueTuple.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Xml.XPath.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\vbc.exe
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\vbc.exe.config
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\vbc.rsp
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\VBCSCompiler.exe
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Antlr3.Runtime.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\AutoMapper.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\EntityFramework.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\EntityFramework.SqlServer.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\LinqToExcel.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.Web.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Newtonsoft.Json.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Remotion.Data.Linq.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Remotion.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Remotion.Interfaces.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.ValueTuple.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Helpers.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Mvc.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Optimization.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Razor.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.WebPages.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.WebPages.Razor.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\WebGrease.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\AutoMapper.pdb
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\AutoMapper.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\EntityFramework.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\EntityFramework.SqlServer.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\LinqToExcel.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.ValueTuple.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Helpers.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Mvc.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Optimization.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.Razor.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.WebPages.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\System.Web.WebPages.Razor.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Antlr3.Runtime.pdb
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Newtonsoft.Json.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\bin\Microsoft.AI.Web.xml
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\obj\Debug\dataTable.csprojResolveAssemblyReference.cache
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\obj\Debug\dataTable.csproj.CoreCompileInputs.cache
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\obj\Debug\dataTable.csproj.CopyComplete
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\obj\Debug\dataTable.dll
+C:\Users\sijagga\Desktop\CBo\Datatable plus excel upload without indiv add and delete\dataTable\dataTable\obj\Debug\dataTable.pdb

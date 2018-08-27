@@ -1,0 +1,401 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    //Layout = null;
+    var modelInfo = Model ?? new List<MaintenanceViewModel>();
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css " />
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#CBOTable').DataTable();
+        //$('#CBOTable').DataTable({ 
+        //    "columnDefs": [{
+        //        "targets": -1,
+        //        "data": null,
+        //        "defaultContent": "<button>Click!</button>"
+        //    }]
+        //});
+
+        $("#btnAdd").click(function (e) {
+            $("input[type=text],input[type=date], textarea").val("");
+            $("#AddProject").dialog({
+                title: "Add Project Details",
+                width: 955,
+                height: 565,
+                modal: true,
+                buttons: {
+                    Close: function () {
+                        $(this).dialog('close');
+                    }
+                }
+            });
+        });
+
+
+        $('#fileUploadExcel').click(function (e) {
+            if ($('#fileUpload').val() === "") {
+                alert("Please select a file to Upload.", "Please select file", "error");
+                return false;
+            }
+
+        });
+    });
+    //Add event handler.
+    $("body").on("click", "#btnSave", function () {
+        debugger;
+        var txtProjectName = $("#txtProjectName");
+        var txtProjectDescription = $("#txtProjectDescription");
+        var txtContactName = $("#txtContactName");
+        var txtContactEmail = $("#txtContactEmail");
+        var txtStartDate = $("#txtStartDate");
+        debugger;
+        $.ajax({
+            type: "POST",
+            url: "/Home/InsertNewWinDetails",
+            data: '{ProjectName: "' + txtProjectName.val() + '", ProjectDescription: "' + txtProjectDescription.val() + '", ContactName: "' + txtContactName.val() + '", ContactEmail: "' + txtContactEmail.val() + '", StartDate: "' + txtStartDate.val() + '"    }',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (r) {
+                $('#CBOTable').DataTable().row.add([r, txtProjectName.val(), txtProjectDescription.val(), txtContactName.val(), txtContactEmail.val(), txtStartDate.val()]).draw(false)
+                $("#AddProject").hide();
+            },
+            error: function (x, f, f) {
+                debugger;
+            }
+        });
+    });
+
+    //Edit event handler.
+    $("body").on("click", "#CBOTable .Edit", function () {
+        var row = $(this).closest("tr");
+        $("td", row).each(function () {
+
+            if ($(this).find("input").length > 0) {
+                $(this).find("input").show();
+                $(this).find("input").val($(this).find("span").html())
+                $(this).find("span").hide();
+            }
+            else if ($(this).find("textarea").length > 0) {
+                $(this).find("textarea").show();
+                $(this).find("textarea").val($(this).find("span").html())
+                $(this).find("span").hide();
+            }
+        });
+        row.find(".Update").show();
+        row.find(".Cancel").show();
+        row.find(".Delete").hide();
+        $(this).hide();
+    });
+
+    //Update event handler.
+    $("body").on("click", "#CBOTable .Update", function () {
+        var row = $(this).closest("tr");
+        $("td", row).each(function () {
+
+            if ($(this).find("input").length > 0) {
+                var span = $(this).find("span");
+                var input = $(this).find("input");
+
+                span.html(input.val());
+                span.show();
+                input.hide();
+            }
+            else if ($(input).length == 0) {
+                var span = $(this).find("span");
+                var input = $(this).find("textarea");
+                span.html(input.val());
+                span.show();
+                input.hide();
+            }
+        });
+        row.find(".Edit").show();
+        row.find(".Delete").show();
+        row.find(".Cancel").hide();
+        $(this).hide();
+
+        var customer = {};
+        customer.ID = row.find(".ID").find("span").html();
+        customer.ProjectName = row.find(".ProjectName").find("span").html();
+        customer.ProjectDescription = row.find(".ProjectDescription").find("span").html();
+        customer.ContactName = row.find(".ContactName").find("span").html();
+        customer.ContactEmail = row.find(".ContactEmail").find("span").html();
+        customer.StartDate = row.find(".StartDate").find("span").html();
+        $.ajax({
+            type: "POST",
+            url: "/Home/UpdateAddWinDetails",
+            data: '{model:' + JSON.stringify(customer) + '}',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json"
+        });
+    });
+
+    //Cancel event handler.
+    $("body").on("click", "#CBOTable .Cancel", function () {
+        var row = $(this).closest("tr");
+        $("td", row).each(function () {
+            if ($(this).find("input").length > 0) {
+                var span = $(this).find("span");
+                var input = $(this).find("input");
+                input.val(span.html());
+                span.show();
+                input.hide();
+            }
+            else if ($(this).find("textarea").length > 0) {
+                var span = $(this).find("span");
+                var input = $(this).find("textarea");
+                input.val(span.html());
+                span.show();
+                input.hide();
+            }
+        });
+        row.find(".Edit").show();
+        row.find(".Delete").show();
+        row.find(".Update").hide();
+        $(this).hide();
+    });
+
+
+    //Delete event handler.
+    $("body").on("click", "#CBOTable .Delete", function () {
+        debugger;
+        if (confirm("Do you want to delete this record?")) {
+            var row = $(this).closest("tr");
+            var ID = row.find("span").html().trim();
+            row.addClass("remove");
+            $.ajax({
+                type: "POST",
+                url: "/Home/DeleteAddWinDetails",
+                data: '{ID: ' + ID + '}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    $('#CBOTable').DataTable().row(".remove").remove().draw(false);
+                },
+                error: function (x, f, f) {
+                    debugger;
+                }
+            });
+         
+        }
+    });
+
+</script>
+<br />
+<br />
+
+
+<div style="padding-left:40px">
+    <h2 class="bold">Core Business Operations</h2>
+    <p class="">Core Business Operations is an integrated set of Offerings that addresses our clients heart-of-the-business issues. This Portfolio combines our functional and technical capabilities to help clients transform, modernize, and run their existing technology platforms. Moreover, this Portfolio will optimize our clients’ business operations, and help them take advantage of new technologies. </p>
+    <p><a href="https://deloittenet.deloitte.com/PC/PracticeComm/Industries/HSG/Federal/Consulting/Pages/GPS_CBO.aspx" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+<br />
+<br />
+<div>
+    <div class="lead">NewWins Details</div>
+    <table id="CBOTable" class="display" style="width:100%;border:1px solid black;border-width:1">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Project Name</th>
+                <th>Project Description</th>
+                <th>Contact Name</th>
+                <th>Contact Email</th>
+                <th>Start Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @*class="table-striped table-bordered table-hover table-condensed"*@
+            @foreach (var data in modelInfo)
+            {
+                <tr class="table-striped table-bordered table-hover table-condensed">
+                    <td class="ID test">
+                        <span> @data.ID</span>
+                    </td>
+                    <td class="ProjectName table-striped table-bordered table-hover table-condensed">
+                        <span>@data.ProjectName</span>
+                        <input type="text" value="@data.ProjectName" style="display:none ; width:80%;" />
+                    </td>
+                    <td class="ProjectDescription table-striped table-bordered table-hover table-condensed">
+                        <span>@data.ProjectDescription</span>
+                        <textarea rows="2" value="@data.ProjectDescription" style="display:none;width:80%;"></textarea>
+
+                        @*<text value="@data.ProjectDescription" style="display:none" />*@
+                    </td>
+                    <td class="ContactName table-striped table-bordered table-hover table-condensed">
+                        <span>@data.ContactName</span>
+                        <input type="text" value="@data.ContactName" style="display:none;width:90%" />
+                    </td>
+                    <td class="ContactEmail table-striped table-bordered table-hover table-condensed">
+                        <span>@data.ContactEmail</span>
+                        <input type="text" value="@data.ContactEmail" style="display:none;width:75%" />
+                    </td>
+                    <td class="StartDate table-striped table-bordered table-hover table-condensed">
+                        <span>@data.StartDate.ToString("yyyy-MM-dd")</span>
+                        <input type="date" value="@data.StartDate.ToString("yyyy-MM-dd")" style="width: 90%; display:none" />
+                    </td>
+                    <td>
+
+                        <a href="#" class="btn btn-info btn-xs Edit">
+                            <span class="glyphicon glyphicon-pencil"></span> Edit
+                        </a>
+                        <a href="#" class="btn btn-info btn-xs Update" style="display:none">
+                            <span class="glyphicon glyphicon-pencil"></span> Update
+                        </a>
+
+                        <a href="#" class="btn btn-default btn-xs Cancel" style="display:none">
+                            <span class="glyphicon glyphicon-repeat"></span> Cancel
+                        </a>
+
+                        <a href="#" class="btn btn-danger btn-xs Delete">
+                            <span class="glyphicon glyphicon-trash"></span> Delete
+                        </a>
+
+
+                        @*<a class="Edit" href="javascript:;">Edit</a>
+                            <a class="Update" href="javascript:;" style="display:none">Update</a>
+                            <a class="Cancel" href="javascript:;" style="display:none">Cancel</a>
+                            <a class="Delete" href="javascript:;">Delete</a>*@
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Id</th>
+                <th>Project Name</th>
+                <th>Project Description</th>
+                <th>Contact Name</th>
+                <th>Contact Email</th>
+                <th>Start Date</th>
+                <th>Action</th>
+            </tr>
+        </tfoot>
+    </table>
+    <input type="button" id="btnAdd" value="Add" class="btn btn-primary" style="height:33px;width:60px" />
+</div>
+<br />
+<br />
+@*<div id="AddProject" style="padding-left:10%;display:none;">
+        <h3>Add NewWinsDetail</h3>
+        <hr />
+        <br />
+        <form id="FormId">
+            <table id="AddprojectTable" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td style="width:150px">
+                        Project Name:<br />
+                        <input type="text" id="txtProjectName" style="width:140px" required />
+                    </td>
+                    <td style="width:150px">
+                        Project Description:<br />
+                        <textarea rows="2" id="txtProjectDescription" required style="width:140px"></textarea>
+                    </td>
+
+                    <td style="width:150px">
+                        Contact Name:<br />
+                        <input type="text" id="txtContactName" style="width:140px" required />
+                    </td>
+
+                    <td style="width:150px">
+                        Contact Email:<br />
+                        <input type="text" id="txtContactEmail" style="width:140px" required />
+                    </td>
+
+                    <td style="width:150px">
+                        Start Date:<br />
+                        <input type="date" id="txtStartDate" style="width:140px" required />
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <input type="submit" value="Save" id="btnSave" class="btn btn-primary" style="height:33px;width:60px"
+            <input type="button" value="Cancel" class="btn btn-default" id="CancelAdd" style="height:33px;width:67px" />
+        </form>
+    </div>*@
+<div class="container" id="AddProject" style="display:none">
+
+    <div class="lead">Add NewWins Detail</div>
+    <hr />
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            @*Html.LabelFor(x => model.ProjectName, new { @class = "mylabel" })*@
+            <label class="mylabel"> Project Name</label>
+        </div>
+        <div class="col-md-4">
+            @*Html.TextBoxFor(x => model.ProjectName, new { @class = "form-control", placeholder = "Project Name", @maxlength = 50 })*@
+            <input type="text" id="txtProjectName" class="form-control" placeholder="Project Name" maxlength="50" required />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            <label class="mylabel">Project Description</label>
+        </div>
+        <div class="col-md-4">
+            @*Html.TextBoxFor(x => model.ProjectDescription, new { @class = "form-control", placeholder = "Project Description", @maxlength = 100 })*@
+            <textarea rows="2" id="txtProjectDescription" required class="form-control" placeholder="Project Description" maxlength="100"></textarea>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            @*Html.LabelFor(x => model.StartDate, new { @class = "mylabel" })*@
+            <label class="mylabel">Start Date</label>
+        </div>
+        <div class="col-md-4">
+            @*Html.TextBoxFor(x => model.StartDate, new { type = "date", @class = "form-control" })*@
+            <input type="date" id="txtStartDate" required class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            @*@Html.LabelFor(x => model.ContactName, new { @class = "mylabel" })*@
+            <label class="mylabel">Contact Name</label>
+        </div>
+        <div class="col-md-4">
+            @*@Html.TextBoxFor(x => model.ContactName, new { @class = "form-control", placeholder = "Contact Name", @maxlength = 50 })*@
+
+            <input type="text" id="txtContactName" class="form-control" placeholder="Contact Name" maxlength="50" required />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            @*@Html.LabelFor(x => model.ContactEmail, new { @class = "mylabel" })*@
+            <label class="mylabel">Contact Email</label>
+        </div>
+        <div class="col-md-4">
+            @*Html.TextBoxFor(x => model.ContactEmail, new { @class = "form-control", placeholder = "Contact Email", @maxlength = 50 })*@
+            <input type="text" id="txtContactEmail" required class="form-control" placeholder="Contact Email" maxlength="50" />
+        </div>
+    </div>
+    <br />
+    @*<input type="submit" id="" value="Save" class="btn btn-primary" />*@
+    <input type="button" value="Save" id="btnSave" class="btn btn-primary" style="height:33px;width:60px" />
+    </div>
+<div>You can do bulk upload using an excel. </div>
+<div align="left">
+    @if (ViewBag.Message != null)
+        {
+            <span class="alert alert-warning"> @ViewBag.Message</span>
+        }
+    <br />
+    <div align="right" class="btn btn-default">
+        @using (Html.BeginForm("UploadExcel", "Home", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+        {
+            <input type="file" id="fileUpload" class="btn btn-primary" name="FileUpload" /><br />
+            <input type="submit" class="btn btn-primary" name="UploadNewEmployee" id="fileUploadExcel" value="Upload" />
+        }
+    </div>
+</div>
